@@ -1,0 +1,366 @@
+----------- Initil game state ----------
+     0  1  2 
+   +---------+
+0  | b  w    |
+1  | w  b    |
+2  |         |
+   +---------+
+Checking action: 2, 0
+
+
+Turn: Black
+Game state info:
+ - IsTerminal: false
+ - Legal moves count: 2
+ - Legal moves:[(0, 2)][(2, 0)]
+     0  1  2 
+   +---------+
+0  | b  w    |
+1  | w  b    |
+2  |         |
+   +---------+
+
+Selected action: (0, 2)
+Legal: true
+
+     0  1  2 
+   +---------+
+0  | b  b  b |
+1  | w  b    |
+2  |         |
+   +---------+
+IsFinished: false
+Black tokens: 4
+White tokens: 1
+
+---------------------------------------------------------------
+
+
+
+Turn: White
+Game state info:
+ - IsTerminal: false
+ - Legal moves count: 1
+ - Legal moves:[(1, 2)]
+     0  1  2 
+   +---------+
+0  | b  b  b |
+1  | w  b    |
+2  |         |
+   +---------+
+
+Selected action: (1, 2)
+Legal: true
+
+     0  1  2 
+   +---------+
+0  | b  b  b |
+1  | w  w  w |
+2  |         |
+   +---------+
+IsFinished: false
+Black tokens: 3
+White tokens: 3
+
+---------------------------------------------------------------
+
+
+
+Turn: Black
+Game state info:
+ - IsTerminal: false
+ - Legal moves count: 5
+ - Legal moves:[(2, 0)][(2, 1)][(2, 2)]
+     0  1  2 
+   +---------+
+0  | b  b  b |
+1  | w  w  w |
+2  |         |
+   +---------+
+
+Selected action: (2, 0)
+Legal: true
+
+     0  1  2 
+   +---------+
+0  | b  b  b |
+1  | b  b  w |
+2  | b       |
+   +---------+
+IsFinished: false
+Black tokens: 6
+White tokens: 1
+
+---------------------------------------------------------------
+
+
+
+Turn: Black
+Game state info:
+ - IsTerminal: false
+ - Legal moves count: 5
+ - Legal moves:[(2, 0)][(2, 1)][(2, 2)]
+     0  1  2 
+   +---------+
+0  | b  b  b |
+1  | w  w  w |
+2  |         |
+   +---------+
+
+Selected action: (2, 1)
+Legal: true
+
+     0  1  2 
+   +---------+
+0  | b  b  b |
+1  | w  b  w |
+2  |    b    |
+   +---------+
+IsFinished: false
+Black tokens: 5
+White tokens: 2
+
+---------------------------------------------------------------
+
+
+
+Turn: Black
+Game state info:
+ - IsTerminal: false
+ - Legal moves count: 5
+ - Legal moves:[(2, 0)][(2, 1)][(2, 2)]
+     0  1  2 
+   +---------+
+0  | b  b  b |
+1  | w  w  w |
+2  |         |
+   +---------+
+
+Selected action: (2, 2)
+Legal: true
+
+     0  1  2 
+   +---------+
+0  | b  b  b |
+1  | w  b  b |
+2  |       b |
+   +---------+
+IsFinished: false
+Black tokens: 6
+White tokens: 1
+
+---------------------------------------------------------------
+
+2147483647
+Checking action: 0, 2
+
+
+Turn: Black
+Game state info:
+ - IsTerminal: false
+ - Legal moves count: 2
+ - Legal moves:[(0, 2)][(2, 0)]
+     0  1  2 
+   +---------+
+0  | b  w    |
+1  | w  b    |
+2  |         |
+   +---------+
+
+Selected action: (2, 0)
+Legal: true
+
+     0  1  2 
+   +---------+
+0  | b  w    |
+1  | b  b    |
+2  | b       |
+   +---------+
+IsFinished: false
+Black tokens: 4
+White tokens: 1
+
+---------------------------------------------------------------
+
+
+
+Turn: White
+Game state info:
+ - IsTerminal: false
+ - Legal moves count: 1
+ - Legal moves:[(2, 1)]
+     0  1  2 
+   +---------+
+0  | b  w    |
+1  | b  b    |
+2  | b       |
+   +---------+
+
+Selected action: (2, 1)
+Legal: true
+
+     0  1  2 
+   +---------+
+0  | b  w    |
+1  | b  w    |
+2  | b  w    |
+   +---------+
+IsFinished: false
+Black tokens: 3
+White tokens: 3
+
+---------------------------------------------------------------
+
+
+
+Turn: Black
+Game state info:
+ - IsTerminal: false
+ - Legal moves count: 5
+ - Legal moves:[(0, 2)][(1, 2)][(2, 2)]
+     0  1  2 
+   +---------+
+0  | b  w    |
+1  | b  w    |
+2  | b  w    |
+   +---------+
+
+Selected action: (0, 2)
+Legal: true
+
+     0  1  2 
+   +---------+
+0  | b  b  b |
+1  | b  b    |
+2  | b  w    |
+   +---------+
+IsFinished: false
+Black tokens: 6
+White tokens: 1
+
+---------------------------------------------------------------
+
+
+
+Turn: Black
+Game state info:
+ - IsTerminal: false
+ - Legal moves count: 5
+ - Legal moves:[(0, 2)][(1, 2)][(2, 2)]
+     0  1  2 
+   +---------+
+0  | b  w    |
+1  | b  w    |
+2  | b  w    |
+   +---------+
+
+Selected action: (1, 2)
+Legal: true
+
+     0  1  2 
+   +---------+
+0  | b  w    |
+1  | b  b  b |
+2  | b  w    |
+   +---------+
+IsFinished: false
+Black tokens: 5
+White tokens: 2
+
+---------------------------------------------------------------
+
+
+
+Turn: Black
+Game state info:
+ - IsTerminal: false
+ - Legal moves count: 5
+ - Legal moves:[(0, 2)][(1, 2)][(2, 2)]
+     0  1  2 
+   +---------+
+0  | b  w    |
+1  | b  w    |
+2  | b  w    |
+   +---------+
+
+Selected action: (2, 2)
+Legal: true
+
+     0  1  2 
+   +---------+
+0  | b  w    |
+1  | b  b    |
+2  | b  b  b |
+   +---------+
+IsFinished: false
+Black tokens: 6
+White tokens: 1
+
+---------------------------------------------------------------
+
+2147483647
+
+org.opentest4j.AssertionFailedError: 
+2
+1
+ <Click to see difference>
+
+
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:152)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:147)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:510)
+	at MinMaxWizardTests.minMaxDecision_given_GameState_returns_a_value(MinMaxWizardTests.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:628)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:117)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:184)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:180)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:127)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:74)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+
